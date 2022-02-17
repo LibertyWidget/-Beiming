@@ -119,22 +119,23 @@ namespace Beiming
             }
             catch (Exception E)
             {
+                Console.WriteLine("--------------");
                 System.Windows.MessageBox.Show("出现异常" + E);
             }
 
 
-            // var enumerator = new NAudio.CoreAudioApi.MMDeviceEnumerator();
-            // //允许你在某些状态下枚举渲染设备
-            // var endpoints = enumerator.EnumerateAudioEndPoints(DataFlow.All, DeviceState.Unplugged | DeviceState.Active);
-            // foreach (var endpoint in endpoints)
-            //
-            // {
-            //     Console.WriteLine(endpoint.FriendlyName);
-            // }
-            // // Aswell as hook to the actual event
-            //
-            // enumerator.RegisterEndpointNotificationCallback(new NotificationClient());
-            // Console.ReadLine();
+            var enumerator = new NAudio.CoreAudioApi.MMDeviceEnumerator();
+            //允许你在某些状态下枚举渲染设备
+            var endpoints = enumerator.EnumerateAudioEndPoints(DataFlow.All, DeviceState.Unplugged | DeviceState.Active);
+            foreach (var endpoint in endpoints)
+           
+            {
+                Console.WriteLine(endpoint.FriendlyName);
+            }
+            // Aswell as hook to the actual event
+           
+            enumerator.RegisterEndpointNotificationCallback(new NotificationClient());
+            Console.ReadLine();
         }
     }
 

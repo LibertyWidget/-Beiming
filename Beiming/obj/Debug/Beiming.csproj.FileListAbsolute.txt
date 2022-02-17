@@ -24,3 +24,14 @@ I:\WorkC\Beiming\Beiming\bin\Debug\NAudio.dll
 I:\WorkC\Beiming\Beiming\bin\Debug\NAudio.xml
 I:\WorkC\Beiming\Beiming\obj\Debug\app\login\LogoPanel.g.cs
 I:\WorkC\Beiming\Beiming\obj\Debug\app\login\LogoPanel.baml
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Desktop.dll
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Direct2D1.dll
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.dll
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.DXGI.dll
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.pdb
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Desktop.pdb
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Desktop.xml
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Direct2D1.pdb
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Direct2D1.xml
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.DXGI.pdb
+I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.DXGI.xml
