@@ -1,0 +1,212 @@
+﻿<Window
+    x:Class="Beiming.app.Mian"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Beiming.app"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Mian"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <DockPanel DockPanel.Dock="Top">
+                <DockPanel DockPanel.Dock="Top">
+                    <materialDesign:ColorZone Padding="16" Mode="PrimaryMid">
+                        <DockPanel>
+                            <DockPanel DockPanel.Dock="Right">
+                                <DockPanel Margin="0,8,0,0">
+                                    <DockPanel Margin="00,0,20,0" DockPanel.Dock="Left">
+                                        <materialDesign:PopupBox StaysOpen="False">
+                                            <materialDesign:PopupBox.ToggleContent>
+                                                <materialDesign:PackIcon
+                                                    Width="23"
+                                                    Height="23"
+                                                    Margin="00,0,5,0"
+                                                    Kind="AccountCircle" />
+                                            </materialDesign:PopupBox.ToggleContent>
+
+                                            <ListBox>
+                                                <ListBoxItem Content=" 修改密码 " />
+                                                <ListBoxItem Content=" 退出登录 " />
+                                            </ListBox>
+                                        </materialDesign:PopupBox>
+                                    </DockPanel>
+
+                                    <DockPanel Margin="00,0,20,0" DockPanel.Dock="Left">
+                                        <materialDesign:PopupBox StaysOpen="False">
+                                            <materialDesign:PopupBox.ToggleContent>
+                                                <materialDesign:PackIcon
+                                                    Width="23"
+                                                    Height="23"
+                                                    Kind="MessageMinus" />
+                                            </materialDesign:PopupBox.ToggleContent>
+                                        </materialDesign:PopupBox>
+                                    </DockPanel>
+                                    <DockPanel Margin="00,0,20,0" DockPanel.Dock="Left">
+                                        <materialDesign:PopupBox StaysOpen="False">
+                                            <materialDesign:PopupBox.ToggleContent>
+                                                <materialDesign:PackIcon
+                                                    Width="23"
+                                                    Height="23"
+                                                    Kind="Cog" />
+                                            </materialDesign:PopupBox.ToggleContent>
+                                        </materialDesign:PopupBox>
+                                    </DockPanel>
+                                    <DockPanel Margin="00,0,20,0" DockPanel.Dock="Left">
+                                        <materialDesign:PopupBox StaysOpen="False">
+                                            <materialDesign:PopupBox.ToggleContent>
+                                                <materialDesign:PackIcon
+                                                    Width="23"
+                                                    Height="23"
+                                                    Kind="Help" />
+                                            </materialDesign:PopupBox.ToggleContent>
+                                        </materialDesign:PopupBox>
+                                    </DockPanel>
+                                </DockPanel>
+                            </DockPanel>
+                            <StackPanel materialDesign:RippleAssist.IsCentered="True" Orientation="Horizontal">
+                                <ToggleButton Style="{DynamicResource MaterialDesignHamburgerToggleButton}" />
+                                <materialDesign:ColorZone
+                                    Margin="16,0,0,0"
+                                    Padding="8,4,8,4"
+                                    Panel.ZIndex="1"
+                                    materialDesign:ShadowAssist.ShadowDepth="Depth1"
+                                    CornerRadius="2"
+                                    Mode="Standard">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Button Style="{DynamicResource MaterialDesignToolButton}">
+                                            <materialDesign:PackIcon Kind="Search" Opacity=".56" />
+                                        </Button>
+                                        <TextBox
+                                            Grid.Column="1"
+                                            MinWidth="200"
+                                            Margin="8,0,0,0"
+                                            VerticalAlignment="Center"
+                                            materialDesign:HintAssist.Hint="输入您想搜索的项目"
+                                            materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                                            BorderThickness="0" />
+                                        <Button Grid.Column="2" Style="{DynamicResource MaterialDesignToolButton}">
+                                            <materialDesign:PackIcon
+                                                Margin="8,0,0,0"
+                                                Kind="Send"
+                                                Opacity=".56" />
+                                        </Button>
+                                    </Grid>
+                                </materialDesign:ColorZone>
+                            </StackPanel>
+                        </DockPanel>
+                    </materialDesign:ColorZone>
+
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Bottom">
+                    <StackPanel DockPanel.Dock="Right" />
+                </DockPanel>
+            </DockPanel>
+            <DockPanel DockPanel.Dock="Left">
+                <TextBlock>Left</TextBlock>
+            </DockPanel>
+
+            <!--  Bottom  -->
+            <DockPanel Margin="0,0,0,2" DockPanel.Dock="Bottom">
+                <Label
+                    Width="auto"
+                    Height="25"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Content="共有20项目" />
+                <DockPanel Margin="20,0,10,0" DockPanel.Dock="Left">
+                    <materialDesign:PopupBox StaysOpen="False">
+                        <materialDesign:PopupBox.ToggleContent>
+                            <materialDesign:PackIcon
+                                Width="23"
+                                Height="23"
+                                Kind="ChevronLeft" />
+                        </materialDesign:PopupBox.ToggleContent>
+                    </materialDesign:PopupBox>
+                </DockPanel>
+                <Label
+                    Width="auto"
+                    Height="25"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Content="112/12" />
+
+                <DockPanel Margin="10,0,20,0" DockPanel.Dock="Left">
+                    <materialDesign:PopupBox StaysOpen="False">
+                        <materialDesign:PopupBox.ToggleContent>
+                            <materialDesign:PackIcon
+                                Width="23"
+                                Height="23"
+                                Kind="ChevronRight" />
+                        </materialDesign:PopupBox.ToggleContent>
+                    </materialDesign:PopupBox>
+                </DockPanel>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox
+                        Grid.Column="2"
+                        Width="130"
+                        Height="30"
+                        Margin="0,3,0,0"
+                        VerticalAlignment="Bottom"
+                        MaxLength="6"
+                        MaxLines="1"
+                        TextAlignment="Left" />
+
+                    <Button
+                        Grid.Column="2"
+                        Width="70"
+                        Height="29"
+                        Margin="60,0,0,0"
+                        VerticalAlignment="Center"
+                        Content="跳转" />
+                </Grid>
+                <DockPanel DockPanel.Dock="Right" />
+            </DockPanel>
+            <!--  Right  -->
+            <DockPanel DockPanel.Dock="Right">
+                <TextBlock>Right</TextBlock>
+            </DockPanel>
+
+            <DockPanel>
+                <ListView ItemsSource="{Binding Items1}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding Code}" Header="Code" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Name" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Description" />
+                            <GridViewColumn Header="Options">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ComboBox Width="100">
+                                            <ComboBoxItem Content="Test" />
+                                            <ComboBoxItem Content="Test2" />
+                                            <ComboBoxItem Content="Test3" />
+                                        </ComboBox>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+            </DockPanel>
+        </DockPanel>
+
+
+    </Grid>
+</Window>

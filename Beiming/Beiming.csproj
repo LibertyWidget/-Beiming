@@ -79,7 +79,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="app\help\HelpCenter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="app\login\LogoPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="app\mess\Message.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="app\Mian.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="app\setting\SettingPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="app\statistics\UserStatistics.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -91,8 +111,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="app\help\HelpCenter.xaml.cs">
+      <DependentUpon>HelpCenter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="app\login\LogoPanel.xaml.cs">
       <DependentUpon>LogoPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="app\mess\Message.xaml.cs">
+      <DependentUpon>Message.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="app\Mian.xaml.cs">
+      <DependentUpon>Mian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="app\setting\SettingPanel.xaml.cs">
+      <DependentUpon>SettingPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="app\statistics\UserStatistics.xaml.cs">
+      <DependentUpon>UserStatistics.xaml</DependentUpon>
     </Compile>
     <Compile Include="code\util\KeyboardHook.cs">
       <Generator>MSBuild:Compile</Generator>
@@ -131,9 +166,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\setting\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="res\aaa.png" />
   </ItemGroup>

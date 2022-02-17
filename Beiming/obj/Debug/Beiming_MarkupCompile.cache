@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 I:\WorkC\Beiming\Beiming\App.xaml
-2761533939
+71915690264
 
-7119463757
+12-1489753312
 21-1885982737
-app\login\LogoPanel.xaml;MainWindow.xaml;
+app\help\HelpCenter.xaml;app\login\LogoPanel.xaml;app\mess\Message.xaml;app\Mian.xaml;app\setting\SettingPanel.xaml;app\statistics\UserStatistics.xaml;MainWindow.xaml;
 
 False
 

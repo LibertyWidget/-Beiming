@@ -35,3 +35,14 @@ I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Direct2D1.pdb
 I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.Direct2D1.xml
 I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.DXGI.pdb
 I:\WorkC\Beiming\Beiming\bin\Debug\SharpDX.DXGI.xml
+I:\WorkC\Beiming\Beiming\obj\Debug\app\help\HelpCenter.g.cs
+I:\WorkC\Beiming\Beiming\obj\Debug\app\mess\Message.g.cs
+I:\WorkC\Beiming\Beiming\obj\Debug\app\setting\SettingPanel.g.cs
+I:\WorkC\Beiming\Beiming\obj\Debug\app\statistics\UserStatistics.g.cs
+I:\WorkC\Beiming\Beiming\obj\Debug\app\help\HelpCenter.baml
+I:\WorkC\Beiming\Beiming\obj\Debug\app\mess\Message.baml
+I:\WorkC\Beiming\Beiming\obj\Debug\app\setting\SettingPanel.baml
+I:\WorkC\Beiming\Beiming\obj\Debug\app\statistics\UserStatistics.baml
+I:\WorkC\Beiming\Beiming\obj\Debug\app\Mian.g.cs
+I:\WorkC\Beiming\Beiming\obj\Debug\app\Mian.baml
+I:\WorkC\Beiming\Beiming\obj\Debug\GeneratedInternalTypeHelper.g.cs
