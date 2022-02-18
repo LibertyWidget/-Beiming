@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sgsupport.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sgsupport64.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("res/icon.png")]
 
 

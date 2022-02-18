@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Beiming.app.login;
+using Beiming.app.setting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,5 +25,23 @@ namespace Beiming.app
         {
             InitializeComponent();
         }
+
+        private void Out_Login_Click(object sender, RoutedEventArgs e)
+        {
+            LogoPanel logo = new LogoPanel();
+            logo.Show();
+        }
+
+        private void Setting_Click(object sender, RoutedEventArgs e)
+        {
+            SettingPanel setting = new SettingPanel();
+            setting.Show();
+        }
+
+        private void Pwd_Chage_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Pwd_Chage_Click");
+        }
+
     }
 }

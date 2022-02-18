@@ -45,4 +45,3 @@ I:\WorkC\Beiming\Beiming\obj\Debug\app\setting\SettingPanel.baml
 I:\WorkC\Beiming\Beiming\obj\Debug\app\statistics\UserStatistics.baml
 I:\WorkC\Beiming\Beiming\obj\Debug\app\Mian.g.cs
 I:\WorkC\Beiming\Beiming\obj\Debug\app\Mian.baml
-I:\WorkC\Beiming\Beiming\obj\Debug\GeneratedInternalTypeHelper.g.cs
